@@ -30,7 +30,8 @@ public class BetterMainActivityTest {
             plus.performClick();
             one.performClick();
             equals.performClick();
-            assertEquals(2, display.getText());
+
+            assertEquals("2", display.getText());
         });
     }
 }
